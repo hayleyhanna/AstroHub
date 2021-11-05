@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Website all about astronomy. Features facts,NASA photo of the day,a quiz,tips on viewing the night sky and an interactive galaxy explorer."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroHub</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Hind+Siliguri:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("img/landingpagebg.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <header class="logo large-font">
+      <a href="index.html" style="color: #1f1d1d; text-decoration: none"
+        >AstroHub</a
+      >
+    </header>
+    <!--nav bar-->
+    <nav class="topnav" id="myTopnav">
+      <a href="Exploretheuniverse.html" class="mobile-hide"
+        >Explore The Universe</a
+      >
+      <a href="astropic.html">Photo Of The Day</a>
+      <a href="spacefacts.html">Space Facts</a>
+      <a href="skywatch.html">SkyWatch</a>
+      <a href="quiz.html">Astronomy Quiz</a>
+      <!--Used to open and close topnav on small screens;javascript:void(0) 
+        is a placeholder to indicate an onclick event is tied to the link-->
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        aria-label="responsive topnav"
+        onclick="hamburgerMenu()"
+      >
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <div class="landing-page">
+      <h1>Welcome to AstroHub</h1>
+    </div>
+    <noscript>Please enable JavaScript to view full site.</noscript>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3910dcb4d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

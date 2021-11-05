@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyWatch-AstroHub</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Icon library for hamburger icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Hind+Siliguri:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="logo large-font">
+      <a href="index.html" style="color: #1f1d1d; text-decoration: none">
+        AstroHub</a
+      >
+    </header>
+    <!--nav bar-->
+    <nav class="topnav" id="myTopnav">
+      <a href="Exploretheuniverse.html" class="mobile-hide"
+        >Explore The Universe</a
+      >
+      <a href="astropic.html">Photo Of The Day</a>
+      <a href="spacefacts.html">Space Facts</a>
+      <a href="skywatch.html" class="active">SkyWatch</a>
+      <a href="quiz.html">Astronomy Quiz</a>
+      <!--Used to open and close topnav on small screens;javascript:void(0) 
+            is a placeholder to indicate an onclick event is tied to the link-->
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        aria-label="responsive topnav"
+        onclick="hamburgerMenu()"
+      >
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <div class="skywatch-container">
+      <div class="skywatch-content width-percentage">
+        <main>
+          <section>
+            <h2 class="large-font header-padding">
+              Tips for Viewing the Night Sky
+            </h2>
+            <dl class="shadow">
+              <dt class="small-font underlined-text">
+                ⋆ The Darker the Sky the Brighter the Stars-
+              </dt>
+              <dd class="smaller-font">
+                - Light pollution from cities can washout starlight and make it
+                difficult to observe the night sky. It is best to travel away
+                from the city for your best chance at seeing the most stars.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ Let Your Eyes Adjust-
+              </dt>
+              <dd class="smaller-font">
+                - For best viewing results let your eyes adjust to the night sky
+                for 20-30 minutes.
+              </dd>
+              <dt class="small-font underlined-text">⋆ Check the Moon Phase</dt>
+              <dd class="smaller-font">
+                - Even the moon can cause light pollution that drowns out the
+                stars. Going stargazing during a new moon ensures that the sky
+                is at its darkest and you will have the best chance at seeing
+                the most stars and other astronomical objects.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ Check the Transparency
+              </dt>
+              <dd class="smaller-font">
+                - In astronomy, transparency is the measure of how clear the
+                atmosphere is. Dust,smoke,haze, humidity and light pollution all
+                play a role in the transparency of the night sky. Transparency
+                tends to gets better with altitude,because you're looking
+                through less air. Transparent is also usually high after a
+                rainstorm, after the storm has cleared out all the particles in
+                the air. You can visit
+                <a href="https://www.cleardarksky.com/" style="color: #066659fb"
+                  >cleardarksky.com</a
+                >
+                for more information about the transparency forecast near you.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ Find a Clear Viewing Spot
+              </dt>
+              <dd class="smaller-font">
+                - Be sure to travel away from tall buildings that can block your
+                view of the night sky. Try moving to a higher location such as a
+                mountain top or a lookout point for the best possible view.
+              </dd>
+            </dl>
+          </section>
+          <section>
+            <!--Full Moon Calender-->
+            <h2 class="center large-font">2021 Full Moon Calender</h2>
+            <table class="center">
+              <tr>
+                <th class="small-font">Date</th>
+                <th class="small-font">Name</th>
+                <th class="small-font">EST</th>
+                <th class="small-font">UTC</th>
+              </tr>
+              <tr>
+                <td>Jan 28, Thu</td>
+                <td>Wolf Moon</td>
+                <td>2:16 PM</td>
+                <td>7:16 PM</td>
+              </tr>
+              <tr>
+                <td>Feb 27, Sat</td>
+                <td>Snow Moon</td>
+                <td>3:17 AM</td>
+                <td>8:17 AM</td>
+              </tr>
+              <tr>
+                <td>Mar 28, Sun</td>
+                <td>Worm Moon</td>
+                <td>2:48 PM</td>
+                <td>6:48 PM</td>
+              </tr>
+              <tr>
+                <td>Apr 26, Mon</td>
+                <td>Pink Moon</td>
+                <td>11:31 PM</td>
+                <td>3:31 AM(Apr 27)</td>
+              </tr>
+              <tr>
+                <td>May 26, Wed</td>
+                <td>Flower Moon</td>
+                <td>7:17 AM</td>
+                <td>11:17 AM</td>
+              </tr>
+              <tr>
+                <td>Jun 24, Thu</td>
+                <td>Strawberry Moon</td>
+                <td>2:40 PM</td>
+                <td>6:40 PM</td>
+              </tr>
+              <tr>
+                <td>July 23, Fri</td>
+                <td>Buck Moon</td>
+                <td>10:37 PM</td>
+                <td>2:37 AM(Jul 24)</td>
+              </tr>
+              <tr>
+                <td>Aug 22, Sun</td>
+                <td>Sturgeon Moon</td>
+                <td>8:02 AM</td>
+                <td>12:02 PM</td>
+              </tr>
+              <tr>
+                <td>Sep 20, Mon</td>
+                <td>Harvest Moon</td>
+                <td>7:55 AM</td>
+                <td>11:55 PM</td>
+              </tr>
+              <tr>
+                <td>Oct 20, Wed</td>
+                <td>Hunter's Moon</td>
+                <td>10:57 AM</td>
+                <td>2:57 PM</td>
+              </tr>
+              <tr>
+                <td>Nov 19, Fri</td>
+                <td>Beaver Moon</td>
+                <td>3:58 AM</td>
+                <td>8:58 AM</td>
+              </tr>
+              <tr>
+                <td>Dec 18, Sat</td>
+                <td>Cold Moon</td>
+                <td>11:36 PM</td>
+                <td>4:36 AM(Dec 19)</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <!--Astronomy Events-->
+            <h2 class="large-font">Top Astronomy Events in 2021</h2>
+            <dl class="shadow">
+              <dt class="small-font underlined-text">
+                ⋆ January 2: Perihelion-
+              </dt>
+              <dd class="smaller-font">
+                - On January 2 at 8:50 a.m catch an early Perihelion,this is
+                when Earth reaches the closest point in its orbit to the Sun.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ April 26-27: Pink Supermoon-
+              </dt>
+              <dd class="smaller-font">
+                - April's full Moon also well known as the "Pink Moon" will also
+                be a Supermoon. The pink Supermoon will be visible after sunset
+                and will reach its peak at 11:33 PM.EDT.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ May 26: Total Eclipse of the Moon-
+              </dt>
+              <dd class="smaller-font">
+                - Quite possibly the most anticipated astronomical event of
+                2021. A total lunar eclipse is when the Sun,Earth and the Moon
+                align perfectly, creating a lunar eclipse. In North America only
+                part of the eclipse will be visible;however you can view the
+                total eclipse from the High Plains, Pacific Coast or the Rocky
+                Mountains.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ August 11-12: Perseid Meteor Shower-
+              </dt>
+              <dd class="smaller-font">
+                - The Perseids will be on of the most spectacular meteor showers
+                of the year. The Perseid meteor shower will be visible from July
+                17 to August 24 and will reach its peak on the night of August
+                11-12. During the peak you will have the chance to see up to 60
+                meteors per hour if conditions are just right. The best time to
+                watch for meteors will be between midnight and dawn. Make sure
+                to give your eyes about 30 minutes to adjust to the dark for
+                your best chance at catching a glimpse at the meteors.
+              </dd>
+              <dt class="small-font underlined-text">
+                ⋆ December 4: Total Eclipse of the Sun-
+              </dt>
+              <dd class="smaller-font">
+                - On December 4 the final eclipse if 2021 will take place.
+                Unfortunately the total eclipse will only be visible from the
+                continent of Antarctic. Although only a lucky handful of people
+                will be able to witness the total eclipse,astrophiles living in
+                South Africa, Namibia, and Botswana, as well as Tasmania and
+                southern parts of New South Wales as well as Victoria in
+                Australia will have the chance to catch a smaller partial
+                eclipse.
+              </dd>
+            </dl>
+          </section>
+
+          <section>
+            <!--Top stargazing spots-->
+            <h2 class="large-font">
+              Top 5 Places to Stargaze in the United States
+            </h2>
+            <ol reversed="reversed" start="5" class="shadow">
+              <li class="small-font underlined-text">
+                Cherry Springs State Park, Pennsylvania
+              </li>
+              <dd class="smaller-font">
+                - Located in Potter County Pennsylvania, Cherry Springs State
+                Park is a great place to view the Milky Way and other hard to
+                see celestial objects. The park has an "Astronomy Field" that
+                offers an unobstructed 360-degree view of the night sky. The
+                park is available to visit all year round and 60-85 nights a
+                year have conditions considered to be ideal for stargazing.
+              </dd>
+              <li class="small-font underlined-text">
+                Death Valley National Park, California
+              </li>
+              <dd class="smaller-font">
+                - With a gold tier rating for stargazing Death Valley National
+                Park is a destination that every avid stargazer should have on
+                their bucket list. With a whopping 3.4 million acres of dark
+                skies, you will be sure to have an epic stargazing experience.
+              </dd>
+              <li class="small-font underlined-text">
+                Denali National Park, Alaska
+              </li>
+              <dd class="smaller-font">
+                - If seeing the Aurora Borealis along with the stars in the
+                night sky is on your bucket list. Denali National Park is a must
+                visit destination. With very little light pollution and long
+                hours of darkness through the winter months, stargazers have the
+                life changing chance to see the two breathtaking sites in
+                action.
+              </dd>
+              <li class="small-font underlined-text">Mauna Kea, Hawaii</li>
+              <dd class="smaller-font">
+                - If stargazing on top of a 14,000 foot tall volcano in the
+                tropics sounds like an ideal night under the stars,this is the
+                destination for you. Mauna Kea is the biggest observatory in the
+                world. Due to the tropical inversion layer here, pollutants will
+                not be a factor and conditions are always clear for viewing.
+              </dd>
+              <li class="small-font underlined-text">
+                Cosmic Campground, New Mexico
+              </li>
+              <dd class="smaller-font">
+                - Coming in at number one on the list for the best stargazing
+                destinations is Cosmic Campground located in the Gila National
+                Forest. The nearest source of artificial light is more than 40
+                miles away, across the state line in Arizona. Named as the first
+                International Dark Sky Sanctuary in America. The stars are so
+                bright,that it is reported that you are able to see your shadow
+                on the ground from the light of the stars alone.
+              </dd>
+            </ol>
+          </section>
+        </main>
+      </div>
+      <div class="right-sidebar width-percentage">
+        <div
+          id="contain_moon"
+          style="text-align: center; padding-top: 65px; padding-bottom: 5px"
+        >
+          <div style="font-weight: bold">The Moon Tonight</div>
+          <div
+            style="
+              margin-top: -7px;
+              margin-bottom: -15px;
+              padding: 45px;
+              filter: drop-shadow(0 0 30px rgba(247, 245, 187, 0.74));
+            "
+          ></div>
+          <div>.</div>
+          <div style="font-size: small">.</div>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+    <noscript>Please enable JavaScript to view full site.</noscript>
+    <script src="app.js"></script>
+    <script src="moonwidget.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3910dcb4d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

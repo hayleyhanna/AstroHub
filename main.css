@@ -1,0 +1,298 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1d1d;
+  font-family: "HindSiliguri-Light";
+  font-size: 16px;
+  color: rgb(216, 216, 216);
+  height: 100%;
+  margin: 4%;
+  background-image: url("https://images.unsplash.com/photo-1549700337-d4fcfce79ae7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*|| SITE WIDE */
+.large-font {
+  font-size: 1.875rem;
+  font-family: "Hind Siliguri regular", sans-serif;
+}
+.small-font {
+  font-size: 1.563rem;
+  font-family: "Hind Siliguri light", sans-serif;
+  padding-top: 10px;
+}
+.smaller-font {
+  font-size: 1.25rem;
+  font-family: "Hind Siliguri light", sans-serif;
+}
+div h1 {
+  font-size: 3.125rem;
+  font-family: "Dosis Light", sans-serif;
+}
+.underlined-text {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+.logo {
+  float: left;
+  font-family: "Dosis Light", sans-serif;
+  font-weight: 300;
+  text-shadow: 4px 4px 6px rgb(17, 17, 17);
+  color: #1f1d1d;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.25),
+    -4px -4px 8px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 4px;
+}
+.topnav {
+  overflow: hidden;
+}
+/*Styles links in navbar*/
+.topnav a {
+  float: right;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 17px;
+  color: rgb(15, 15, 15);
+  text-shadow: 2px 2px 4px rgba(41, 41, 41, 0.651);
+  text-decoration: none;
+  background-color: rgb(235, 235, 235);
+  font-family: "Hind Siliguri Light", sans-serif;
+}
+/* Changes color of links on hover*/
+.topnav a:hover {
+  background-color: rgb(15, 15, 15);
+  color: rgb(235, 235, 235);
+}
+
+/*Highlights current page*/
+.topnav a.active {
+  background-color: rgb(15, 15, 15);
+  color: rgb(235, 235, 235);
+}
+/*Hides link that opens and closes the topnav on small screens*/
+.topnav .icon {
+  display: none;
+}
+.astro-pic-heading {
+  padding-top: 85px;
+  padding-bottom: 55px;
+  text-align: left;
+}
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; /*Places button at bottom of page*/
+  right: 30px; /*Places button 30px to the right*/
+  z-index: 99; /*Makes it not overlap*/
+  font-size: 20px;
+  border: none;
+  color: rgb(0, 0, 0);
+}
+#topBtn:hover {
+  background-color: rgb(145, 142, 142); /*adds grey overlay on hover*/
+}
+
+/* || GENERAL STYLES */
+.shadow {
+  box-shadow: 1px 1px 10px #83828288, -1px -1px 20px #066659fb;
+  background-color: rgba(87, 85, 85, 0.397);
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+main div {
+  padding-top: 7%;
+}
+section h2 {
+  line-height: 1.5;
+  padding-top: 5%;
+}
+.header-padding {
+  padding-top: 12%;
+}
+.landing-page {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#explanation {
+  letter-spacing: 1px;
+  padding: 5%;
+  width: 140%;
+}
+#quiz {
+  padding: 75px 110px 110px 110px;
+}
+.flex-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.solarsystem {
+  padding-top: 25%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*creates 2 evenly spaces columns*/
+  clear: both;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+.grid-item {
+  padding: 35px;
+  line-height: 2em;
+  text-align: center;
+}
+.item1 {
+  grid-column: 1 / span 2; /*Places item in first column and spans the width of two columns*/
+}
+.item4 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+.item7 {
+  grid-column: 1 / span 2;
+  grid-row: 5;
+}
+.item10 {
+  grid-column: 1 / span 2;
+  grid-row: 7;
+}
+.grid-item img {
+  filter: drop-shadow(0 0 0.66rem rgba(26, 198, 250, 0.911));
+  border-radius: 30px;
+}
+/*Expands images on hover*/
+.grid-item img:hover {
+  color: #424242;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+.skywatch-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skywatch-content {
+  width: 65%;
+  order: 1;
+}
+.right-sidebar {
+  width: 35%;
+  padding-top: 5%;
+  order: 2;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "Hind Siliguri Light", sans-serif;
+}
+table,
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(235, 235, 235);
+  box-shadow: 1px 1px 10px #aaaaaa8a, -1px -1px 20px #0666597e;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(24, 23, 23);
+}
+tr:nth-child(odd) {
+  background-color: rgba(87, 85, 85, 0.397);
+}
+td {
+  font-size: 1.375rem;
+}
+/*highlights each row on hover except first one*/
+tr:not(:first-child):hover {
+  background-color: rgba(219, 219, 219, 0.664);
+}
+dl {
+  padding-left: 1.25rem;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+/* || MEDIA QUERIES*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 1024px) {
+  .mobile-hide {
+    display: none !important;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  /*Having no space between .topnav and .responsive 
+    selects an element with both class names*/
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 17px;
+  }
+  html {
+    font-size: 60%;
+  }
+  .width-percentage {
+    width: 100%;
+  }
+  #explanation {
+    width: 90%;
+  }
+  #pic {
+    padding-bottom: 3%;
+  }
+  #quiz {
+    padding-left: 10%;
+    padding-top: 12%;
+  }
+  .grid-container {
+    display: block;
+  }
+  .skywatch-content {
+    order: 1;
+  }
+  .right-sidebar {
+    width: 100%;
+    order: 2;
+    padding-top: 1px;
+    padding-bottom: 55px;
+  }
+}

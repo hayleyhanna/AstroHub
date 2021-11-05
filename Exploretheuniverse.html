@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Explore The Universe-AstroHub</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Icon library for hamburger icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      body {
+        @font-face {
+          font-family: "Hind Siliguri";
+          src: url("HindSiliguri-Regular.ttf") format("truetype");
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+        }
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="logo large-font">
+      <a href="index.html" style="color: #1f1d1d; text-decoration: none">
+        AstroHub</a
+      >
+    </header>
+    <!--nav bar-->
+    <nav class="topnav" id="myTopnav">
+      <a href="Exploretheuniverse.html" class="active mobile-hide"
+        >Explore The Universe</a
+      >
+      <a href="astropic.html">Photo Of The Day</a>
+      <a href="spacefacts.html">Space Facts</a>
+      <a href="skywatch.html">SkyWatch</a>
+      <a href="quiz.html">Astronomy Quiz</a>
+      <!--Used to open and close topnav on small screens;javascript:void(0) 
+        is a placeholder to indicate an onclick event is tied to the link-->
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        aria-label="responsive topnav"
+        onclick="hamburgerMenu()"
+      >
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <div class="page-content">
+      <div class="wrapper">
+        <main>
+          <div class="solarsystem center">
+            <iframe
+              src="https://www.solarsystemscope.com/iframe"
+              width="700"
+              height="600"
+              style="min-width: 500px; min-height: 600px; border: none"
+            ></iframe>
+          </div>
+        </main>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3910dcb4d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <noscript>Please enable JavaScript to view full site.</noscript>
+  </body>
+</html>
