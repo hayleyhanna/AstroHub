@@ -1,2 +1,2 @@
 # Astrohub.github.io
-Interactive website dedicated to astronomy.
+AstroHub is an interactive website dedicated to astronomy. AstroHub Includes a 10 question astronomy quiz, interesting facts, skywatching tips, a new moon calendar, a new photo every day retrieved from NASA’s daily astronomy photo API, and a feature to explore and learn about the universe.![Screenshot 10 Amazing Space Facts-AstroHub](https://user-images.githubusercontent.com/82784152/140583872-67db7ddc-dc52-4a0e-850a-07b7a777ed9e.png)
