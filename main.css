@@ -244,14 +244,11 @@ iframe {
   .mobile-hide {
     display: none !important;
   }
-  .logo {
-    float: right;
-  }
   .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
-    float: left;
+    float: right;
     display: block;
   }
   /*Having no space between .topnav and .responsive 
