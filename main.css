@@ -264,9 +264,7 @@ iframe {
     left: 0;
     top: 0;
   }
-  a.mobile-padding {
-    padding-top: 40px;
-  }
+  
   .topnav.responsive a {
     float: none;
     display: block;
