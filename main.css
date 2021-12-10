@@ -135,7 +135,7 @@ section h2 {
   width: 140%;
 }
 #quiz {
-  padding: 75px 110px 110px 110px;
+  padding: 3%;
 }
 .flex-container {
   width: 60%;
@@ -284,8 +284,7 @@ iframe {
     padding-bottom: 3%;
   }
   #quiz {
-    padding-left: 10%;
-    padding-top: 12%;
+    width:96%;
   }
   .grid-container {
     display: block;
