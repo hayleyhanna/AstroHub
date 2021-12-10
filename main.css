@@ -254,14 +254,13 @@ iframe {
   /*Having no space between .topnav and .responsive 
     selects an element with both class names*/
   .topnav.responsive {
-    position: absolute;
+    position: relative;
   }
   .topnav.responsive .icon {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
   }
-  
   .topnav.responsive a {
     float: none;
     display: block;
