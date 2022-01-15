@@ -74,6 +74,9 @@ div h1 {
   background-color: rgb(15, 15, 15);
   color: rgb(235, 235, 235);
 }
+topnav.responsive{
+  padding-bottom:3rem;
+}
 /*Hides link that opens and closes the topnav on small screens*/
 .topnav .icon {
   display: none;
@@ -266,6 +269,9 @@ iframe {
     display: block;
     text-align: left;
     font-size: 17px;
+    position: relative;
+    top:23%;
+    padding-bottom: 13%;
   }
   html {
     font-size: 65%;
