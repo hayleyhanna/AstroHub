@@ -256,8 +256,8 @@ iframe {
     selects an element with both class names*/
   .topnav.responsive {
     position: relative;
-    top:23%;
-  }
+    padding-bottom: 2rem;
+    }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
